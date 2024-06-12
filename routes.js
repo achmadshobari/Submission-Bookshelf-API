@@ -1,4 +1,3 @@
-const Joi = require("joi");
 const { addBookHandler, getAllBookHandler, getBookByIdHandler, editBookByIdHandler, deleteBookByIdHandler } = require("./handler");
 
 const routes =[
